@@ -1,0 +1,146 @@
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+button {
+    border: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+#urock img,#upaper img,#uscissors img{
+    width: 60px;
+    height: 60px;
+}
+
+#urock:hover,#upaper:hover,#uscissors:hover {
+    background-color: aqua;
+}
+
+#game_side {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 1;
+    background-color: black;
+}
+
+h3 {
+    color: aliceblue;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+#heading {
+    
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+#heading h1 {
+    font-family: fantasy;
+    color: aliceblue;
+    word-spacing: 50px;
+    letter-spacing: 3px;
+}
+
+#result {
+    text-align: center;
+}
+
+#user-selections {
+    text-align: center;
+}
+#user-selections h4 {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+#user-buttons {
+    justify-content: space-between;
+    align-content: center;
+    height: 110px;
+}
+
+#user h3{
+    font-family: fantasy;
+    text-align: center;
+}
+
+#computer-head h3{
+    font-family: fantasy;
+    text-align: center;
+}
+
+#computer-buttons img {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#computer-selections {
+    text-align: center;
+}
+#computer-selections h4 {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+#computer-score {
+    text-align: center;
+    justify-content: center;
+}
+
+#computer-score h3{
+    font-family: fantasy;
+}
+
+#computer-score span{
+    text-align: center;
+}
+#user-score {
+    text-align: center;
+}
+#user-score span {
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+#computer-score span {
+    color: white;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.buttonSelect{
+    background-color: green;
+}
+
+.roundResult {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: black;
+}
+
+#user {
+    margin-left: 500px;
+}
+
+#computer {
+    margin-right: 500px;
+}

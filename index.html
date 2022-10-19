@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+        <H1>ROCK PAPER SCISSORS</H1>
+    </div>
+
+    <div id="game_side">
+        <div id="user">
+            <div id="user-head"><h3>USER</h3></div>
+            <div id="user-selections"><h4>CHOOSE YOUR WEAPON</h4></div>
+            <div id="user-buttons">
+                <button id="urock" onclick="rock()"><img src="images/fist.png"></button>
+                <button id="upaper" onclick="paper()"><img src="images/paper.png"></button>
+                <button id="uscissors" onclick="scissors()"><img src="images/scissors.png"></button>
+            </div>
+            <div id="user-score">
+                <h3>SCORE</h3>
+                <span id="userWins">0</span>
+            </div>
+        </div>
+        <div id="computer">
+            <div id="computer-head"><h3>COMPUTER</h3></div>
+            <div id="computer-selections"><h4>COMPUTER'S CHOICE</h4></div>
+            <div id="computer-buttons">
+                    <img id="crock" src="images/fist.png">
+                    <img id="cpaper" src="images/paper.png">
+                    <img id="cscissors" src="images/scissors.png">
+            </div>
+            <div id="computer-score">
+                <h3>SCORE</h3>
+                <span id="computerWins">0</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="roundResult">
+        <p>
+            FIRST PERSON TO GET 5 POINTS WINS
+        </p>
+    </div>
+
+    <script src="logics.js"></script>
+</body>
+</html>
